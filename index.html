@@ -25,22 +25,33 @@
   <body>
     <div class="container">
       <p class="title">We're launching soon</p>
+      <p id="demo"></p>
       <div class="timer">
-        <div class="card">
-          <div class="cardContent">08<span class="divider"></span>
+        <!-- <div class="card">
+          <div class="cardContent">
+            <span class="top">2</span>
+            <span class="divider">
+            </span>
+            <span class="bottom">2</span>
           </div>
           <div class="cardFooter">Days</div>
-        </div>
+        </div> -->
+
         <div class="card">
-          <div class="cardContent">23</div>
+          <div class="cardContent"><span id="days">0</span></div>
+          <div class="cardFooter">Days</div>
+        </div>
+
+        <div class="card">
+          <div class="cardContent"><span id="hours">0</span></div>
           <div class="cardFooter">Hours</div>
         </div>
         <div class="card">
-          <div class="cardContent">55</div>
+          <div class="cardContent"><span id="minutes">0</span></div>
           <div class="cardFooter">Minutes</div>
         </div>
         <div class="card">
-          <div class="cardContent">41</div>
+          <div class="cardContent"><span id="seconds">0</span></div>
           <div class="cardFooter">Seconds</div>
         </div>
       </div>
@@ -60,5 +71,7 @@
         <a href="https://www.linkedin.com/in/freud-alexandro/">Freud Múnera</a>.
       </div>
     </footer>
+
+    <script src="logic.js"></script>
   </body>
 </html>
